@@ -16,7 +16,7 @@ int main(void)
 		while (digit2 <= 9)
 		{
 			digit3 = 0;
-			while (digiyt3 <= 9)
+			while (digit3 <= 9)
 			{
 
 				if (digit1 != digit2 &&
