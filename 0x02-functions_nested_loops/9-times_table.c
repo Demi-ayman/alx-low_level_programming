@@ -17,7 +17,7 @@ void times_table(void)
 			_putchar(',');
 			_putchar(' ');
 
-			prod = * mult;
+			prod = num * mult;
 
 			/*
 			 * put space if product is a single number
