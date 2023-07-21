@@ -6,15 +6,20 @@
 */
 void more_numbers(void)
 {
-	int row, cloum;
+	int num, row, cloum;
 
 	for (row = 0; row < 10; row++)
 	{
 		for (colum = 0; colum <= 14; colum++)
 		{
-			putchar(colum + 48);
+			num = count;
+			if (coun > 9)
+			{
+				_putchar(49);
+				num = count % 10;
+			}
+			_putchar(num + 48);
 		}
 		putchar('\n');
 	}
-	putchar('\n');
 }
