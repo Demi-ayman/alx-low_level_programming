@@ -6,11 +6,11 @@
 */
 void more_numbers(void)
 {
-	int num, row, cloum;
+	int num, row, count;
 
 	for (row = 0; row < 10; row++)
 	{
-		for (colum = 0; colum <= 14; colum++)
+		for (count = 0; count <= 14; count++)
 		{
 			num = count;
 			if (coun > 9)
