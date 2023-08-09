@@ -9,12 +9,12 @@
  *
  * Return: Always 0 (Success)
  */
-int main (int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	int sum = 0;
 	char *c;
 
-	while(--argc)
+	while (--argc)
 	{
 		for (c = argv[argc]; *c; c++)
 		{
