@@ -1,4 +1,4 @@
-dwbdwdbwmed n	 dnnwmandbkdswed,m jsbw dwvd kjhd dh1wvd#include "variadic_functions.h"
+#include "variadic_functions.h"
 #include <stdarg.h>
 
 /**
